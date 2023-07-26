@@ -1,0 +1,1 @@
+["Current", "Fully Paid", "In Grace Period", "Does not meet the credit policy. Status:Fully Paid"]
