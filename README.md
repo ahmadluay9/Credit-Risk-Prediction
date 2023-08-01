@@ -9,7 +9,7 @@ This repository consists of several files, namely :
 - **Folder deployment** = Contains files used for deployment to HuggingFace (contains models and .txt files.)
 - **low_risk.txt** = list of loan status which is included in the low risk category
 - **sel_features.txt** = list of selected features
-- **best_model.pkl** = TSaved model to be loaded and used later for making predictions on new data without the need to retrain the SVM.
+- **best_model.pkl** = Saved model to be loaded and used later for making predictions on new data without the need to retrain the SVM.
 
 # Brief of Summary of Project
 The flow of this project, first EDA (Exploratory Data Analysis) to find out the basic picture of the dataset. Second, cleaning and preprocessing of the dataset. Third, Built Classification Models using 2 algorithms (Logistic Regression and Decision Tree ). These algorithms are tested based on their baseline/default parameters, and then cross-validation will be applied to evaluate each model based on mean and also standard deviation. Next hyperparameter tuning is carried out using the selected algorithm. The Selected model is **Decision Tree model** has been improved with Hyperparameter Tuning using GridSearch.
